@@ -1,0 +1,9 @@
+# Physics Awards Downloader —— 构建依赖（仅打包 exe 时需要，运行时不需要）
+#
+# 用法：
+#     python -m pip install -r requirements-build.txt
+#     python scripts/build_index.py      # 生成 data/awards_index.json（需联网）
+#     pwsh scripts/build.ps1 -SkipIndex  # 打包 dist/AwardsDownloader.exe
+#
+# 版本固定，保证不同机器打出的 exe 行为一致。
+pyinstaller==6.22.3

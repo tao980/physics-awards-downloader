@@ -1,0 +1,7 @@
+# Physics Awards Downloader —— 运行时依赖
+#
+# 本程序（含 GUI、下载、CDP 预览转 PDF）只使用 Python 标准库，
+# 不需要安装任何第三方运行时依赖（tkinter 随 Python 官方安装包提供）。
+#
+# 打包成 Windows exe 所需的构建依赖见 requirements-build.txt：
+#     python -m pip install -r requirements-build.txt
